@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap');
 
+:root {
+  --primary: #BB8282;
+}
 
 *{
     margin: 0;
@@ -122,6 +125,8 @@ img{
     flex-direction: column;
     margin-left: 80px;
     z-index: 10;
+    /* max-width: 1320px; */
+    /* margin: 0 auto; */
   }
 
   .banner-content .logo-banner{
@@ -177,10 +182,100 @@ img{
 
   .about-us{
     width: 100%;
-    background-color: GRAY;
     height: 100vh;
   }
 
+  .title{
+    color: #BB8282;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+
+  .about-us .container{
+    padding: 50px;
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+  }
+
+  .container .image-about-us, .container .container-about-us{
+    height: 400px;
+    /* background-color: brown; */
+  }
+
+  .container .image-about-us{
+    width: 35%;
+    margin-right: 10px;
+  }
+
+  .image-about-us img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .container .container-about-us{
+   width: 60%; 
+   background-color: #fff;
+  }
+
+  .container-about-us .content-about-us{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    height: 200px;
+  }
+
+  .content-about-us .primary-content{
+    height: 90px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 22px;
+    color: #BB8282;
+  }
+
+  .content-about-us .secondary-content{
+    margin-top: 15px;
+    width: 100%;
+    height: 90px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .container-about-us .content-devise-au{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    justify-content: space-between;
+  }
+
+  .content-devise-au .card-devise{
+    width: calc(50% - 20px);
+    height: 100%;
+  }
+
+
+  .card-devise .image-devise{
+    width: 80px;
+    height: 80px;
+  }
+
+  .image-devise img{
+    width: 90%;
+    height: 90%;
+  }
+
+  .content-card-devise h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #BB8282;
+  }
 
 
 
@@ -243,6 +338,7 @@ img{
       margin-top: 0;
     }
     
+
   }
 
 
@@ -254,6 +350,61 @@ img{
       height: 60vh;
     }
 
+    .about-us .container{
+      padding: 20px;
+      width: 100%;
+      display: block;
+      height: unset;
+    }
 
+    .container .image-about-us, .container .container-about-us {
+      width: 100%;
+      margin-bottom: 40px;
+      height: unset;
+    }
+
+    .container-about-us .content-about-us{
+      height: auto;
+    }
+    .content-about-us .primary-content{
+      height: unset;
+      margin-bottom: 30px;
+    }
+  
+    .content-about-us .secondary-content{
+      height: auto;
+    }
+  
+    .container-about-us .content-devise-au{
+      display: block;
+      width: 100%;
+      height: auto;
+      
+    }
+  
+    .content-devise-au .card-devise{
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+  
+    .card-devise .image-devise{
+      width: 80px;
+      height: 80px;
+    }
+  
+    .image-devise img{
+      width: 90%;
+      height: 90%;
+    }
+  
+    .content-card-devise h4{
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #BB8282;
+    }
+  
   
   }
