@@ -2,6 +2,7 @@
 
 :root {
   --primary: #BB8282;
+  --secondary : rgb(136, 36, 36);
 }
 
 *{
@@ -182,11 +183,10 @@ img{
 
   .about-us{
     width: 100%;
-    height: 100vh;
   }
 
   .title{
-    color: #BB8282;
+    color: rgb(136, 36, 36);
     text-align: center;
     font-size: 45px;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ img{
   }
 
   .about-us .container{
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     width: 100%;
     max-width: 1320px;
     margin: 0 auto;
@@ -235,7 +235,7 @@ img{
     width: 100%;
     font-weight: 900;
     font-size: 22px;
-    color: #BB8282;
+    color: rgb(136, 36, 36);
   }
 
   .content-about-us .secondary-content{
@@ -274,9 +274,14 @@ img{
     text-transform: uppercase;
     font-size: 20px;
     margin-bottom: 10px;
-    color: #BB8282;
+    color: rgb(136, 36, 36);
   }
 
+  .statistiques{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+  }
 
 
   @media screen and (max-width: 1000px){
@@ -400,11 +405,8 @@ img{
     }
   
     .content-card-devise h4{
-      text-transform: uppercase;
-      font-size: 20px;
       margin-bottom: 10px;
-      color: #BB8282;
     }
   
-  
+ 
   }
