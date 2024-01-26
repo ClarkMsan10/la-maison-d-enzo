@@ -185,6 +185,11 @@ img{
 
 
   @media screen and (max-width: 1000px){
+
+    .topbar{
+      display: none;
+    }
+
     .banner{
       height: 50vh;
       /* background-color: rgba(136, 36, 36, 0.568); */
