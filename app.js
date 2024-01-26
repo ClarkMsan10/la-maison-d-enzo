@@ -10,7 +10,7 @@ window.onscroll = function(){
         topbar.style.top = "0";
     }
     else{
-        topbar.style.top = "-80px";
+        topbar.style.top = "-400px";
     }
     
     navbar.classList.toggle("sticky", window.scrollY > 10);
